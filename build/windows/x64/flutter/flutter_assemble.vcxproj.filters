@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\build\windows\x64\CMakeFiles\4dc4824e35b6623aced40fa1cd09bb39\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\build\windows\x64\CMakeFiles\44d65df79ee3bb89a9c330af479864ea\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{396E0F13-B544-35CE-A0F1-F7BE00DF4737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

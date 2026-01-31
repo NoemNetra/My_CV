@@ -1,0 +1,10 @@
+^C:\USERS\NETRA\DESKTOP\PROJECT_MOBILE_APP\PROJECT_CV\BUILD\WINDOWS\X64\CMAKEFILES\643914BFBA92C38B6A0AC702291576F6\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

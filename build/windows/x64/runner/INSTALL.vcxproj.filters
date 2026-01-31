@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\build\windows\x64\CMakeFiles\c69082dc2b0a9d6719ba9d8bf623936e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{396E0F13-B544-35CE-A0F1-F7BE00DF4737}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

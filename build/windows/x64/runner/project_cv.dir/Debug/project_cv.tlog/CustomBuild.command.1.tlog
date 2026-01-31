@@ -1,0 +1,10 @@
+^C:\USERS\NETRA\DESKTOP\PROJECT_MOBILE_APP\PROJECT_CV\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Netra/Desktop/Project_Mobile_App/project_cv/windows -BC:/Users/Netra/Desktop/Project_Mobile_App/project_cv/build/windows/x64 --check-stamp-file C:/Users/Netra/Desktop/Project_Mobile_App/project_cv/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

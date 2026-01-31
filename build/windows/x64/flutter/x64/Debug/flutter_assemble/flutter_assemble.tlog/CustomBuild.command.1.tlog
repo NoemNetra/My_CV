@@ -1,0 +1,28 @@
+^C:\USERS\NETRA\DESKTOP\PROJECT_MOBILE_APP\PROJECT_CV\BUILD\WINDOWS\X64\CMAKEFILES\4DC4824E35B6623ACED40FA1CD09BB39\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Netra\flutter PROJECT_DIR=C:\Users\Netra\Desktop\Project_Mobile_App\project_cv FLUTTER_ROOT=C:\Users\Netra\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Netra\Desktop\Project_Mobile_App\project_cv FLUTTER_TARGET=C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuMzguNQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZjZmZjE1MjlmZA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTUyN2FlMGVjNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC40 DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Netra\Desktop\Project_Mobile_App\project_cv\.dart_tool\package_config.json C:/Users/Netra/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NETRA\DESKTOP\PROJECT_MOBILE_APP\PROJECT_CV\BUILD\WINDOWS\X64\CMAKEFILES\44D65DF79EE3BB89A9C330AF479864EA\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NETRA\DESKTOP\PROJECT_MOBILE_APP\PROJECT_CV\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Netra/Desktop/Project_Mobile_App/project_cv/windows -BC:/Users/Netra/Desktop/Project_Mobile_App/project_cv/build/windows/x64 --check-stamp-file C:/Users/Netra/Desktop/Project_Mobile_App/project_cv/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
